@@ -60,7 +60,7 @@ public class Generate {
 			}else{
 				writer.write("0");
 			}
-			for (int i = 1; i < 1000000; i++) {
+			for (int i = 1; i < 1000000000; i++) {
 				s = extract_number();
 				if (s % 2 == 1) {
 					writer.write(",1");

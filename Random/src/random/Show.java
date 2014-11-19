@@ -69,14 +69,7 @@ public class Show implements ActionListener {
         if (e.getSource().equals(button3)) { 
         	String url=text1.getText();
         	text1.setText("Task running!");
-        	/*try {
-				//Thread.sleep(3000);
-				
-				Thread.sleep(10000);
-			} catch (InterruptedException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}*/
+        	
         	Generate.run(url);
         	
         	text1.setText("Task completed!");
